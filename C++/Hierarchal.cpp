@@ -1,6 +1,25 @@
 #include<iostream>
 using namespace std;
 
+class Marvellous 
+{
+    public:
+        int C;
+        Marvellous()
+        {
+            C = 20;
+            cout<<"Inside Marvellous Constructor\n";
+        } 
+        ~Marvellous()
+        {
+            cout<<"Inside Marvellous Destructor\n";
+        }
+        void Sun()
+        {
+             cout<<"Inside Sun of Hello\n";
+        }
+};
+
 class Demo : public Marvellous 
 {
     public :
@@ -36,24 +55,6 @@ class Hello : public Marvellous
         void Gun()
         {
              cout<<"Inside Gun of Hello\n";
-        }
-};
-class Marvellous 
-{
-    public:
-        int C;
-        Marvellous()
-        {
-            B = 20;
-            cout<<"Inside Marvellous Constructor\n";
-        } 
-        ~Marvellous()
-        {
-            cout<<"Inside Marvellous Destructor\n";
-        }
-        void Sun()
-        {
-             cout<<"Inside Sun of Hello\n";
         }
 };
 
