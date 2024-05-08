@@ -28,5 +28,6 @@ class Server
             ps.println(str2);
         }
         System.out.println("Thanks you for using Marvellous Messanger..");
+        sobj.close();
     }
 }

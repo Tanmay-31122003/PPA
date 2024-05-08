@@ -25,5 +25,6 @@ class Client
             System.out.println("Server says : "+str2);
         }
         System.out.println("Thanks you for using Marvellous Messanger..");
+        sobj.close();
     }
 }
