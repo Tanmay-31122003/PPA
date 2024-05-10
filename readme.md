@@ -86,3 +86,45 @@ sizeof(z)       8
 *x              200
 ****y           11
 *****z          11
+
+date :- 10/05/2024
+
+# Servlet : -
+    Servlet is consider as technology it's use to create web applications.
+    the concept of servlet is use to create serverside application using java.
+    by using the concept of servlet we can create dynamic web pages 
+    the servlet internally uses client server architecture.
+    where servlet resides in serverside part of the application.
+
+# Servlet Architecture :-
+
+![alt text](image-2.png)
+
+1.    on client side we have to use web browser which is ude to send the request to the web server.
+2.    client send the request which is considered as http request which gets accepted bya server.
+3.   after getting the request inside the server the web container executes the java applicationthe result of java application gets forwarded towards the client.
+4.    the result gets forwarded as http response.
+5.    now the web browser is responsible todisplay the result by using the html language.
+6.    if our server needs to send the request to the database then server connects with the databases and get the required data from the database 
+7.    inside the servlet application we have to write the logic inside doGet method from that java code we sends the result into html format.
+
+# Command Line Arguments :
+1. CLA are considered as arguments which can be passed to the main function.
+2. to pass the command line arguments we have to provide it at the time of executing our application 
+
+- consider th below example where we pass multiple command line arguments to the main function which get's accepted into the parameter of main function.
+
+    - // javac command.java
+    - //java command 11 Demo Marvellous PPA LB
+
+    ![alt text](image-3.png)
+
+# Command Line Argument in C and C++ :
+
+1. in case of C or C++ the parameter we are passing for the main function is optional 
+
+![alt text](image-4.png)
+
+2. the first argument of command line argument contents the name of executable.
+3. other than that everything is exactly same as java 
+4. in case of C and C++ the first parameter is argc which contents the no of arguments as command line arguments.
