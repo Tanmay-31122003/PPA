@@ -128,3 +128,5 @@ date :- 10/05/2024
 2. the first argument of command line argument contents the name of executable.
 3. other than that everything is exactly same as java 
 4. in case of C and C++ the first parameter is argc which contents the no of arguments as command line arguments.
+
+
